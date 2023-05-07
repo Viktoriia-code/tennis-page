@@ -58,13 +58,15 @@ export const content = {
     },
   ],*/
   hero: {
+    greeting: "Hello, my name is",
     title: "Web Developer",
     firstName: "STEFAN",
-    LastName: "AALTO-SETÄLÄ",
+    lastName: "AALTO-SETÄLÄ",
     tennis: "TENNIS",
     padel: "PADEL",
     btnText: "Hire Me",
     image: Hero_person,
+    hero_title: ["Tennis coach","Padel coach","Tennis player","Entrepreneur","Dreamer"],
     hero_content: [
       {
         count: "20+",
