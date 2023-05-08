@@ -2,6 +2,8 @@
 import Hero_person from "./assets/images/Hero/person.png";
 
 import person_about from "./assets/images/About/person_about.jpg";
+import person_about2 from "./assets/images/About/person_about2.jpg";
+import person_about3 from "./assets/images/About/person_about3.jpg";
 
 /*import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
@@ -88,7 +90,21 @@ export const content = {
     title: "About me",
     subtitle: "MY STORY",
     image: person_about,
-    text: "I am an enegetic and passionate tennis and padel coach. I am a dedicated, focused and very well organized coach, and can take care of a group of players from the individual physical, technical and mental program as well as scheduling a good tournament program. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet pulvinar ipsum."
+    text: "I am an enegetic and passionate tennis and padel coach. I am a dedicated, focused and very well organized coach, and can take care of a group of players from the individual physical, technical and mental program as well as scheduling a good tournament program. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet pulvinar ipsum.",
+    about_content: [
+      {
+        title: "Tennis club in Järvenpää",
+        image: person_about,
+      },
+      {
+        title: "Enjoying summer tennis",
+        image: person_about2,
+      },
+      {
+        title: "Get ready!",
+        image: person_about3,
+      },
+    ],
   },
   /*skills: {
     title: "Skills",
