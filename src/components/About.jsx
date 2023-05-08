@@ -23,6 +23,10 @@ const About = () => {
               <br />
             </div>
             <p className="text-lg">{about.text}</p>
+            <div>
+              <img className="w-24" src={about.award_image} alt="..." />
+              <img className="w-24" src={about.keuda_logo} alt="..." />
+            </div>
           </div>
           <Swiper
             pagination={{

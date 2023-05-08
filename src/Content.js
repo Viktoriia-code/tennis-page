@@ -4,6 +4,8 @@ import Hero_person from "./assets/images/Hero/person.png";
 import person_about from "./assets/images/About/person_about.jpg";
 import person_about2 from "./assets/images/About/person_about2.jpg";
 import person_about3 from "./assets/images/About/person_about3.jpg";
+import award from "./assets/images/About/award.png";
+import keuda_logo from "./assets/images/About/keuda_logo.png";
 
 /*import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
@@ -89,7 +91,8 @@ export const content = {
   about: {
     title: "About me",
     subtitle: "MY STORY",
-    image: person_about,
+    award_image: award,
+    keuda_logo: keuda_logo,
     text: "I am an enegetic and passionate tennis and padel coach. I am a dedicated, focused and very well organized coach, and can take care of a group of players from the individual physical, technical and mental program as well as scheduling a good tournament program. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet pulvinar ipsum.",
     about_content: [
       {
