@@ -1,6 +1,8 @@
 // import images
 import Hero_person from "./assets/images/Hero/person.png";
 
+import person_about from "./assets/images/About/person_about.jpg";
+
 /*import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
@@ -81,6 +83,12 @@ export const content = {
         text: "Years of Couch Experience",
       },
     ],
+  },
+  about: {
+    title: "About me",
+    subtitle: "MY STORY",
+    image: person_about,
+    text: "I am an enegetic and passionate tennis and padel coach. I am a dedicated, focused and very well organized coach, and can take care of a group of players from the individual physical, technical and mental program as well as scheduling a good tournament program. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet pulvinar ipsum."
   },
   /*skills: {
     title: "Skills",

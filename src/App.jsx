@@ -6,11 +6,13 @@ import Projects from "./components/Projects";
 import Testimonials from "./components/Testimonials";
 import Hireme from "./components/Hireme";
 import Contact from "./components/Contact";
+import About from "./components/About";
 
 const App = () => {
   return (
     <div className="">
       <Hero />
+      <About />
       <Skills />
       <Service />
       <Projects />
