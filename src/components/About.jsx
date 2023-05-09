@@ -23,9 +23,21 @@ const About = () => {
               <br />
             </div>
             <p className="text-lg">{about.text}</p>
-            <div>
-              <img className="w-24" src={about.award_image} alt="..." />
-              <img className="w-24" src={about.keuda_logo} alt="..." />
+            <div className="flex flex-col gap-10 mt-10">
+            {about.about_education.map((content, i) => (
+              <div
+                key={i}
+                data-aos="fade-down"
+                data-aos-delay={i * 300}
+                className={`flex items-center w-140 gap-5`}
+              >
+                <img src={content.school_logo} className="w-20" alt="" />
+                <div>
+                  <p className="text-lg">{content.course_name}</p>
+                  <h6>{content.school_title}</h6>
+                </div>
+              </div>
+            ))}
             </div>
           </div>
           <Swiper
@@ -52,13 +64,6 @@ const About = () => {
               </SwiperSlide>
             ))}
           </Swiper>
-          {/*<img
-            src={about.image}
-            alt="..."
-            data-aos="fade-right"
-            className="max-w-[25vw] min-w-[22rem]"
-          />*/}
-
           </div>
     </section>
   );
