@@ -36,12 +36,10 @@ import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person2.png";
 */
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
-import { MdArrowForward, MdCall } from "react-icons/md";
+import { MdArrowForward, MdCall, MdRoom } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { TbSmartHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
@@ -195,60 +193,10 @@ export const content = {
     title: "Locations",
     subtitle: "WHERE I TEACH",
   },
-  /*Projects: {
-    title: "Projects",
-    subtitle: "MY CREATION",
-    image: person_project,
-    project_content: [
-      {
-        title: "Gym Website",
-        image: project1,
-      },
-      {
-        title: "Social Media web",
-        image: project2,
-      },
-      {
-        title: "Creative Website",
-        image: project3,
-      },
-    ],
-  },
-  Testimonials: {
-    title: "Testimonials",
-    subtitle: "MY CLIENT REVIEWS",
-    testimonials_content: [
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar1,
-        name: "JOHN DOE",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar2,
-        name: "Tom Alex",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar3,
-        name: "Johnny",
-      },
-      {
-        review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
-        img: avatar4,
-        name: "ROBBIN",
-      },
-    ],
-  },
-  Hireme: {
-    title: "Hire Me",
-    subtitle: "FOR YOUR PROJECTS",
-    image1: Hireme_person,
-    image2: Hireme_person2,
+  booking: {
+    title: "Book a lesson",
+    subtitle: "FOR TENNIS OR PADDLE",
+    booking_image: Hero_person,
     para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
     btnText: "Hire Me",
   },
@@ -257,23 +205,27 @@ export const content = {
     subtitle: "GET IN TOUCH",
     social_media: [
       {
-        text: "codeaprogram@gmail.com",
+        text: "stefan-aalto@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:stefan-aalto@gmail.com",
       },
       {
-        text: "+91 1234 56778",
+        text: "+358 12-456-7890",
         icon: MdCall,
         link: "https://wa.me/1234567890",
       },
       {
-        text: "codeaprogram",
+        text: "tennis_kokkaus",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/tennis_kokkaus/",
+      },
+      {
+        text: "Kerava, Finland",
+        icon: MdRoom,
       },
     ],
   },
   Footer: {
     text: "All © Copy Right Reserved 2022",
-  },*/
+  },
 };

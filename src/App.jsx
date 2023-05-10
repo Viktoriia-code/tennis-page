@@ -5,8 +5,9 @@ import Service from "./components/Services";
 import Lessons from "./components/Lessons";
 import Locations from "./components/Locations";
 import Faq from "./components/Faq";
-import Hireme from "./components/Hireme";
+import Booking from "./components/Booking";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -17,8 +18,9 @@ const App = () => {
       <Lessons />
       <Locations />
       <Faq />
-      <Hireme />
+      <Booking />
       <Contact />
+      <Footer />
     </div>
   );
 };
