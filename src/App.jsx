@@ -1,12 +1,12 @@
 // import components
 import Hero from "./components/Hero";
-import Skills from "./components/Skills";
+import About from "./components/About";
 import Service from "./components/Services";
-import Projects from "./components/Projects";
-import Testimonials from "./components/Testimonials";
+import Lessons from "./components/Lessons";
+import Locations from "./components/Locations";
+import Faq from "./components/Faq";
 import Hireme from "./components/Hireme";
 import Contact from "./components/Contact";
-import About from "./components/About";
 
 const App = () => {
   return (
@@ -14,9 +14,9 @@ const App = () => {
       <Hero />
       <About />
       <Service />
-      <Skills />
-      <Projects />
-      <Testimonials />
+      <Lessons />
+      <Locations />
+      <Faq />
       <Hireme />
       <Contact />
     </div>

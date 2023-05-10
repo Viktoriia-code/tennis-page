@@ -673,10 +673,6 @@ input,
   color: rgb(6 34 63 / var(--tw-text-opacity));
 }
 
-.subtitle {
-  --tw-text-opacity: 1;
-  color: rgb(183 197 211 / var(--tw-text-opacity))
-}
 
 .swiper-pagination-bullet{
   height: 0.75rem;
@@ -689,4 +685,9 @@ input,
   .md\:w-4\/12{
     width: 33.333333%;
   }
+}
+
+.subtitle {
+  --tw-text-opacity: 1;
+  color: rgb(183 197 211 / var(--tw-text-opacity)) !important;
 }

@@ -91,3 +91,7 @@
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
+.subtitle {
+  --tw-text-opacity: 1;
+  color: rgb(183 197 211 / var(--tw-text-opacity)) !important;
+}

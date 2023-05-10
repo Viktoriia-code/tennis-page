@@ -50,16 +50,8 @@ const Services = () => {
         </div>
         <br />
         <ul className="list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7">
-          <li>Lorem ipsum dolor sit, amet consectetur adipisicing.</li>
-          <li>Lorem ipsum dolor sit, ame.</li>
-          <li>Lorem ipsum dolor sit, amet consectetur</li>
-          <li>
-            Lorem ipsum dolor sit, amet dolor sit, amet consectetur adipisicing.
-          </li>
-          <li>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad est
-            beatae quos rem.
-          </li>
+          <p>{selectSkill?.desc}</p>
+
         </ul>
         <br />
         <div className="flex justify-end">
@@ -85,7 +77,7 @@ const Services = () => {
               data-aos-delay={i * 600}
               className="min-w-[14rem] sm:cursor-pointer relative group cursor-pointer border-2
                border-slate-200 rounded-xl text-center
-               bg-bg_light_primary p-6 flex-1"
+               bg-bg_light_primary p-6 flex-1 hover:drop-shadow-primary duration-200"
               onClick={() => {
                 setSelectSkill(content);
                 openModal();

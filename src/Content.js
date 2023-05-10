@@ -11,6 +11,13 @@ import services_logo1 from "./assets/images/Services/tennis.png";
 import services_logo2 from "./assets/images/Services/paddle.png";
 import services_logo3 from "./assets/images/Services/help.png";
 
+import lesson_child from "./assets/images/Lessons/child.png";
+import teen_beginner from "./assets/images/Lessons/teen_beginner.png";
+import teen_expert from "./assets/images/Lessons/teen_expert.png";
+import adult_relax from "./assets/images/Lessons/adult_relax.png";
+import adult_active from "./assets/images/Lessons/adult_active.png";
+import private_lessons from "./assets/images/Lessons/private_lessons.png";
+
 /*import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
@@ -129,59 +136,66 @@ export const content = {
     service_content: [
       {
         title: "Tennis couching",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "I provide personalized and group tennis lessons tailored to individual needs and goals. My lessons and clinics offer a fun and social atmosphere to improve your game.",
         logo: services_logo1,
+        desc: "My tennis lessons are designed to cater to players of all skill levels, from beginners to advanced players. I provide personalized guidance and feedback to help you improve your technique, footwork, and overall game strategy. I offer private, group, and clinic lessons, as well as customized training programs to help you achieve your goals.",
       },
       {
         title: "Paddle couching",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "I teach padel lessons for all levels, from beginners to advanced players. I provide individual and group lessons, as well as clinics to help you improve your padel game in a fun and social environment.",
         logo: services_logo2,
+        desc: "My paddle lessons are tailored to cater to players of all levels, from first-time players to experienced competitors. I provide personalized guidance and instruction to help you improve your skills, including serving, forehand, backhand, and tactics. I offer private and group lessons, as well as clinics to provide a fun and social environment to enhance your paddle game.",
       },
       {
         title: "Consultations and training",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "I offer consultations and training sessions for both tennis and padel players, providing personalized guidance and feedback to help you achieve your goals.",
         logo: services_logo3,
+        desc: "My consultations and training sessions for tennis and paddle provide personalized guidance and feedback to help you improve your game. I will work with you to design a customized training program tailored to your specific needs and goals. I cover everything from technique and strategy to fitness and mental preparation, ensuring that you are equipped with the skills and knowledge to excel on the court.",
       },
     ],
   },
-  /*skills: {
-    title: "Skills",
-    subtitle: "MY TOP SKILLS",
+  lessons: {
+    title: "Lessons",
+    subtitle: "MY TOP LESSONS",
     skills_content: [
       {
-        name: "Figma",
-        para: "Lorem ipsum text  dummy",
-        logo: figma,
+        name: "Junior Beginner",
+        para: "Children 4-7 years",
+        logo: lesson_child,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
+        name: "Teens Beginner",
+        para: "Teenagers 7-18",
+        logo: teen_beginner,
       },
       {
-        name: "Adobe Photoshop",
-        para: "Lorem ipsum text  dummy",
-        logo: ps,
+        name: "Teens Active",
+        para: "Teenagers 7-18 with experience",
+        logo: teen_expert,
       },
       {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
-        logo: reactjs,
+        name: "Adult Relax",
+        para: "Adults up to 18 years once per week",
+        logo: adult_relax,
       },
       {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
+        name: "Adult Intensive",
+        para: "Adults up to 18 years twice per week",
+        logo: adult_active,
       },
       {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
+        name: "Private lessons",
+        para: "No ages or level limits",
+        logo: private_lessons,
       },
     ],
     icon: MdArrowForward,
   },
-  Projects: {
+  locations: {
+    title: "Locations",
+    subtitle: "WHERE I TEACH",
+  },
+  /*Projects: {
     title: "Projects",
     subtitle: "MY CREATION",
     image: person_project,
