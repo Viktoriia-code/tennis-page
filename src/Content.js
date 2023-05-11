@@ -53,7 +53,7 @@ export const content = {
       icon: TbSmartHome,
     },
     {
-      link: "#skills",
+      link: "#about",
       icon: BiUser,
     },
     {
@@ -61,7 +61,7 @@ export const content = {
       icon: RiServiceLine,
     },
     {
-      link: "#projects",
+      link: "#lessons",
       icon: RiProjectorLine,
     },
     {
