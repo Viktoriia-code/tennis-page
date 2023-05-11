@@ -47,7 +47,7 @@ import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 
 export const content = {
-  /*nav: [
+  nav: [
     {
       link: "#home",
       icon: TbSmartHome,
@@ -68,7 +68,7 @@ export const content = {
       link: "#contact",
       icon: MdOutlinePermContactCalendar,
     },
-  ],*/
+  ],
   hero: {
     greeting: "Hello, my name is",
     title: "Web Developer",
