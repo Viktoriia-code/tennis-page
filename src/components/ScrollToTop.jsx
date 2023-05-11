@@ -34,10 +34,10 @@ const ScrollToTop = () => {
           className={`
           ${isVisible ? 'opacity-100' : 'opacity-0'}
             sm:cursor-pointer fixed bottom-10 right-10 z-[999] rounded-lg bg-white/40 p-2 border-2 border-transparent
-            group hover:bg-bg_light_primary hover:border-slate-200 hover:border-2 duration-300
+            group hover:bg-bg_light_primary hover:border-slate-200 hover:border-2 duration-200
             `}
         >
-          <HiArrowUp size={30} aria-hidden="true" className="group-hover:scale-[1.15] duration-500" />
+          <HiArrowUp size={32} aria-hidden="true" color="slate-200" className="group-hover:scale-[1.15] group-hover:fill-[#00233F] duration-500" />
         </button>
       </div>
     )
