@@ -41,30 +41,40 @@ import avatar4 from "./assets/images/Testimonials/avatar4.png";
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall, MdRoom } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
-import { TbSmartHome } from "react-icons/tb";
+import { TbHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
 import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
-import { MdOutlinePermContactCalendar } from "react-icons/md";
+import { MdOutlinePermContactCalendar, MdOutlineLocationCity, MdOutlineSchool } from "react-icons/md";
 
 export const content = {
   nav: [
     {
+      title: "Home",
       link: "#home",
-      icon: TbSmartHome,
+      icon: TbHome,
     },
     {
+      title: "About",
       link: "#about",
       icon: BiUser,
     },
     {
+      title: "Services",
       link: "#services",
       icon: RiServiceLine,
     },
     {
+      title: "Lessons",
       link: "#lessons",
-      icon: RiProjectorLine,
+      icon: MdOutlineSchool,
     },
     {
+      title: "Locations",
+      link: "#locations",
+      icon: MdOutlineLocationCity,
+    },
+    {
+      title: "Contacts",
       link: "#contact",
       icon: MdOutlinePermContactCalendar,
     },

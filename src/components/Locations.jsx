@@ -1,12 +1,12 @@
 // import content
-import { createElement } from "react";
+//import { createElement } from "react";
 import { content } from "../Content";
 
 const Locations = () => {
   const { locations } = content;
 
   return (
-    <section id="services">
+    <section id="locations">
       <div className="md:container px-5 py-14">
         <h2 className="title" data-aos="fade-down">
           {locations.title}
