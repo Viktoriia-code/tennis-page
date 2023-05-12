@@ -20,26 +20,25 @@ const Navbar = () => {
       </div>
       <nav
         className={`relative top-0 h-[100%] z-[998] flex flex-col gap-4 px-2 pb-3 pt-[74px]
-        text-dark_primary duration-500`}
+        text-dark_primary duration-600`}
       >
         {nav.map((item, i) => (
           <a
             key={i}
             href={item.link}
             onClick={() => setActive(i)}
-            className={`text-xl p-2.5 rounded-full sm:cursor-pointer flex items-center gap-3 group duration-300
-     ${i === active && "bg-dark_primary text-white"} ${
-      item?.margin && "mt-5"}
-    }`}
+            className={`text-xl text-red p-2.5 rounded-full sm:cursor-pointer flex items-center gap-3 group
+     ${i === active && "bg-dark_primary text-white"}
+    `}
           >
             <div>{createElement(item?.icon, { size: "28" })}</div>
             <h2
                 style={{
                   transitionDelay: `${i + 3}00ms`,
                 }}
-                className={`whitespace-pre duration-300 text-inherit text-2xl ${
+                className={`whitespace-pre duration-300 text-2xl ${
                   !showMenu && "opacity-0 translate-x-28 overflow-hidden pl-4"
-                }`}
+                } ${i === active && "delay-0 text-white"}`}
               >
                 {item?.title}
             </h2>
