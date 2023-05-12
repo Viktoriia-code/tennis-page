@@ -27,18 +27,19 @@ const Navbar = () => {
             key={i}
             href={item.link}
             onClick={() => setActive(i)}
-            className={`text-xl text-red p-2.5 rounded-full sm:cursor-pointer flex items-center gap-3 group
+            className={`text-xl text-red p-2.5 rounded-full sm:cursor-pointer flex items-center gap-3 group duration-300
      ${i === active && "bg-dark_primary text-white"}
     `}
           >
             <div>{createElement(item?.icon, { size: "28" })}</div>
             <h2
                 style={{
+                  transitionProperty: "transform,opacity,overflow,padding-left",
                   transitionDelay: `${i + 3}00ms`,
                 }}
-                className={`whitespace-pre duration-300 text-2xl ${
+                className={`whitespace-pre duration-300 text-inherit text-2xl ${
                   !showMenu && "opacity-0 translate-x-28 overflow-hidden pl-4"
-                } ${i === active && "delay-0 text-white"}`}
+                }`}
               >
                 {item?.title}
             </h2>

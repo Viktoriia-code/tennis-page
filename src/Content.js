@@ -43,7 +43,7 @@ import { MdArrowForward, MdCall, MdRoom } from "react-icons/md";
 import { BsInstagram } from "react-icons/bs";
 import { TbHome } from "react-icons/tb";
 import { BiUser } from "react-icons/bi";
-import { RiServiceLine, RiProjectorLine } from "react-icons/ri";
+import { RiServiceLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar, MdOutlineLocationCity, MdOutlineSchool } from "react-icons/md";
 
 export const content = {
