@@ -95,3 +95,7 @@
   --tw-text-opacity: 1;
   color: rgb(183 197 211 / var(--tw-text-opacity)) !important;
 }
+
+.md\:container {
+  padding-left: 5rem !important;
+}
