@@ -10,8 +10,20 @@ import Booking from "./components/Booking";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
+import { useEffect } from "react";
+// Animation package
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
+  useEffect(() => {
+    Aos.init({
+      duration: 1800,
+      offset: 100,
+      disable: "mobile",
+      once: true,
+    });
+  }, []);
   return (
     <div className="">
       <Navbar />
