@@ -18,6 +18,8 @@ import adult_relax from "./assets/images/Lessons/adult_relax.png";
 import adult_active from "./assets/images/Lessons/adult_active.png";
 import private_lessons from "./assets/images/Lessons/private_lessons.png";
 
+import location_kerava1 from "./assets/images/Locations/kerava-tenniskeskus-1.jpg";
+import location_kerava2 from "./assets/images/Locations/kerava-tenniskeskus-2.jpg";
 /*import figma from "./assets/images/Skills/figma.png";
 import sketch from "./assets/images/Skills/sketch.png";
 import ps from "./assets/images/Skills/ps.png";
@@ -202,6 +204,18 @@ export const content = {
   locations: {
     title: "Locations",
     subtitle: "WHERE I TEACH",
+    locations_content: [
+      {
+        place_title: "Kerava",
+        place_address: "Keskikatu, 3",
+        place_image: location_kerava1
+      },
+      {
+        place_title: "Kerava",
+        place_address: "Keskikatu, 3",
+        place_image: location_kerava2
+      },
+    ],
   },
   booking: {
     title: "Book a lesson",
