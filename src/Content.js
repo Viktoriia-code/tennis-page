@@ -207,12 +207,17 @@ export const content = {
     locations_content: [
       {
         place_title: "Kerava",
-        place_address: "Keskikatu, 3",
+        place_address: "Metsolantie 5",
         place_image: location_kerava1
       },
       {
-        place_title: "Kerava",
-        place_address: "Keskikatu, 3",
+        place_title: "Järvenpää",
+        place_address: "Kuuselankatu 2",
+        place_image: location_kerava2
+      },
+      {
+        place_title: "Tuusula",
+        place_address: "Kilpailukuja 4",
         place_image: location_kerava2
       },
     ],
