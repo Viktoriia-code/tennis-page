@@ -220,6 +220,11 @@ export const content = {
         place_address: "Kilpailukuja 4",
         place_image: location_kerava2
       },
+      {
+        place_title: "Vantaa",
+        place_address: "Tennistie 5",
+        place_image: location_kerava2
+      },
     ],
   },
   booking: {

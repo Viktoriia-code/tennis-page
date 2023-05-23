@@ -1,6 +1,6 @@
 import { content } from "../Content";
 import { Swiper, SwiperSlide } from "swiper/react";
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 // Import Swiper styles
 import "swiper/css";
@@ -13,9 +13,12 @@ const Locations = () => {
 
   const [data, setData] = useState(0);
 
-  const handleClick0 = () => {setData(0);};
-  const handleClick1 = () => {setData(1);};
-  const handleClick2 = () => {setData(2);};
+  const [activeButton, setActiveButton] = useState(null);
+
+  const handleClick = (buttonId) => {
+    setData(buttonId);
+    setActiveButton(buttonId);
+  };
 
   return (
     <section id="locations">
@@ -58,10 +61,10 @@ const Locations = () => {
           </Swiper>
               <div className="max-w-[45vw] min-w-[30rem] w-[60%]">
                 <ul className="pb-4">
-                  <li onClick={handleClick0} className="inline-block font-Paprika text-xl cursor-pointer md:mr-8 md:mx-0 mx-6 md:ml-2 border-b-2">Kerava</li>
-                  <li onClick={handleClick1} className="inline-block font-Paprika text-xl cursor-pointer md:mr-8 md:mx-0 mx-6">Järvenpää</li>
-                  <li onClick={handleClick2} className="inline-block font-Paprika text-xl cursor-pointer md:mr-8 md:mx-0 mx-6">Tuusula</li>
-                  <li className="inline-block font-Paprika text-xl cursor-pointer md:mr-8 md:mx-0 mx-6">Sipoo</li>
+                  <li onClick={() => handleClick(0)} className={`inline-block font-Paprika text-xl cursor-pointer md:mr-8 md:mx-0 mx-6 md:ml-2 ${activeButton === 0 ? 'border-b-2' : ''}`}>Kerava</li>
+                  <li onClick={() => handleClick(1)} className={`inline-block font-Paprika text-xl cursor-pointer md:mr-8 md:mx-0 mx-6 ${activeButton === 1 ? 'border-b-2' : ''}`}>Järvenpää</li>
+                  <li onClick={() => handleClick(2)} className={`inline-block font-Paprika text-xl cursor-pointer md:mr-8 md:mx-0 mx-6 ${activeButton === 2 ? 'border-b-2' : ''}`}>Tuusula</li>
+                  <li onClick={() => handleClick(3)} className={`inline-block font-Paprika text-xl cursor-pointer md:mr-8 md:mx-0 mx-6 ${activeButton === 3 ? 'border-b-2' : ''}`}>Vantaa</li>
                 </ul>
                 <h6 className="my-3">{content.locations.locations_content[data].place_title}</h6>
                 <p className="leading-7">{content.locations.locations_content[data].place_address}</p>
