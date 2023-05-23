@@ -20,25 +20,13 @@ import private_lessons from "./assets/images/Lessons/private_lessons.png";
 
 import location_kerava1 from "./assets/images/Locations/kerava-tenniskeskus-1.jpg";
 import location_kerava2 from "./assets/images/Locations/kerava-tenniskeskus-2.jpg";
-/*import figma from "./assets/images/Skills/figma.png";
-import sketch from "./assets/images/Skills/sketch.png";
-import ps from "./assets/images/Skills/ps.png";
-import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
-import python from "./assets/images/Skills/python.png";
+import loc_jarvenpaa_inside from "./assets/images/Locations/järvenpää_tenniskeskus.jpg";
+import loc_jarvenpaa_outside from "./assets/images/Locations/järvenpää_tenniskeskus2.jpg";
+import loc_tuusula_inside from "./assets/images/Locations/tuusula_tenniskeskus.jpg";
+import loc_tuusula_outside from "./assets/images/Locations/tuusula_tenniskeskus2.jpg";
+import loc_vantaa_inside from "./assets/images/Locations/vantaa-tenniskeskus.jpg";
+import loc_vantaa_outside from "./assets/images/Locations/vantaa-tenniskeskus2.jpg";
 
-
-import project1 from "./assets/images/projects/img1.png";
-import project2 from "./assets/images/projects/img2.png";
-import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/person.png";
-
-import avatar1 from "./assets/images/Testimonials/avatar1.png";
-import avatar2 from "./assets/images/Testimonials/avatar2.png";
-import avatar3 from "./assets/images/Testimonials/avatar3.png";
-import avatar4 from "./assets/images/Testimonials/avatar4.png";
-
-*/
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall, MdRoom } from "react-icons/md";
@@ -207,23 +195,35 @@ export const content = {
     locations_content: [
       {
         place_title: "Kerava",
-        place_address: "Metsolantie 5",
-        place_image: location_kerava1
+        place_address: "Metsolantie 5, 04230 Kerava",
+        place_puh: "p. 0500 439 657 (8-16)",
+        place_num_kenttä: "2 kenttää",
+        place_price: "19€/tunti",
+        place_image: [location_kerava1, location_kerava2]
       },
       {
         place_title: "Järvenpää",
         place_address: "Kuuselankatu 2",
-        place_image: location_kerava2
+        place_puh: "p. 0500 439 657 (8-16)",
+        place_num_kenttä: "3 kenttää",
+        place_price: "19€/tunti",
+        place_image: [loc_jarvenpaa_inside, loc_jarvenpaa_outside]
       },
       {
         place_title: "Tuusula",
         place_address: "Kilpailukuja 4",
-        place_image: location_kerava2
+        place_puh: "p. 0500 439 657 (8-16)",
+        place_num_kenttä: "3 kenttää",
+        place_price: "19€/tunti",
+        place_image: [loc_tuusula_inside, loc_tuusula_outside]
       },
       {
         place_title: "Vantaa",
         place_address: "Tennistie 5",
-        place_image: location_kerava2
+        place_puh: "p. 0500 439 657 (8-16)",
+        place_num_kenttä: "2 kenttää",
+        place_price: "19€/tunti",
+        place_image: [loc_vantaa_inside, loc_vantaa_outside]
       },
     ],
   },
